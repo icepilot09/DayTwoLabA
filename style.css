@@ -7,3 +7,25 @@
   max-width: 900px;
   margin: 0 auto;
 }
+.masterContainer .navbar {
+  background-color: #a3c5cf;
+  height: 4em;
+  padding-top: 10px;
+  position: fixed;
+  width: 900px;
+}
+.masterContainer .navbar a {
+  text-decoration: none;
+  color: white;
+  padding: 0 10px;
+}
+.masterContainer .navbar a:hover {
+  color: black;
+}
+.masterContainer .navbar li {
+  list-style-type: none;
+  display: inline;
+}
+.space {
+  margin: 100px;
+}
