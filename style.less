@@ -2,6 +2,17 @@
 	font-family: sans-serif;
 }
 
+@link-color:        white; 
+@link-color-hover:  black;
+
+.navbar a,
+	.link {
+  		color: @link-color;
+	}
+	a:hover {
+  		color: @link-color-hover;
+	}
+
 .masterContainer {
 	text-align: center;
 	padding: 20px 0;
@@ -16,11 +27,8 @@
 	  }
 	  .navbar a {
 		  text-decoration: none;
-		  color: white;
 		  padding: 0 10px;
-	  }
-	  .navbar a:hover {
-		  color: black;
+		  
 	  }
 	  .navbar li {
 		  list-style-type: none;
@@ -32,3 +40,44 @@
 .space {
 	margin: 100px;
 }
+
+.myName {
+		h1 {
+			margin-bottom: 0;
+		}
+		h3 {
+			margin-top: 0;}
+}
+
+.about  {
+    h2 {
+	border-top-style: solid;
+	border-top-color: #a3c5cf;
+	border-bottom-style: solid;
+	border-bottom-color: #a3c5cf;
+	}
+}
+.learnMixin, #learnMixinid {
+  color: red;
+}
+.mixin-class {
+	.learnMixin();
+}
+.mixin-id {
+	#learnMixinid();
+}
+
+li {
+	list-style-type: none;
+}
+
+.footer ul li{
+	text-decoration: none;
+	display:inline;
+}
+li a{
+	color: #a3c5cf;
+	}
+	a:hover {
+		color:black;
+	}
