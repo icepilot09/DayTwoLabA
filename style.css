@@ -6,7 +6,7 @@
   color: white;
 }
 a:hover {
-  color: black;
+  color: #e6e6e6;
 }
 .masterContainer {
   text-align: center;
@@ -39,6 +39,33 @@ a:hover {
   margin-top: 0;
 }
 .about h2 {
+  border-top-style: solid;
+  border-top-color: #a3c5cf;
+  border-bottom-style: solid;
+  border-bottom-color: #a3c5cf;
+}
+.about .leftColumn {
+  float: left;
+}
+.mySkills h2 {
+  border-top-style: solid;
+  border-top-color: #a3c5cf;
+  border-bottom-style: solid;
+  border-bottom-color: #a3c5cf;
+}
+.myProjects h2 {
+  border-top-style: solid;
+  border-top-color: #a3c5cf;
+  border-bottom-style: solid;
+  border-bottom-color: #a3c5cf;
+}
+.myExperience h2 {
+  border-top-style: solid;
+  border-top-color: #a3c5cf;
+  border-bottom-style: solid;
+  border-bottom-color: #a3c5cf;
+}
+.contactMe h2 {
   border-top-style: solid;
   border-top-color: #a3c5cf;
   border-bottom-style: solid;
